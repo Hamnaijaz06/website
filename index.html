@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio - Hamna</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/3b21942988.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo-text">H<span>amna</span> I<span>jaz</span></div>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <i class="fas fa-user-circle avatar"></i>
+                <p>Full Stack Developer</p>
+                <h1> I'm <span>Hamna Ijaz</span><br>from Hasilpur</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="avatar-box">
+                        <i class="fas fa-user-circle"></i>
+                        <h3 style="color: #fff; margin-top: 20px;">Hamna</h3>
+                        <p style="color: #ff004f;">Web Developer</p>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I design, build, and maintain websites or web applications. I use programming languages and
+                        various technologies to create the structure, layout, and functionality of websites. I ensure a
+                        website is visually appealing, easy to navigate, and functions well.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Html,Css,javaScript,PHP</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            <li><span>Full Stack Developer</span><br>Frontend and Bakend</li>
+                            <li><span>Video Editor</span><br>Canva,Capcut</li>
+                            <li><span>Photo Editor</span><br>Adobe illustrator,Capcut,Canva</li>
+                        </ul>
+                    </div>
+
+                    <div id="experience" class="tab-contents">
+                        <ul>
+                            <li><span>2026 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2023 - 2025</span><br>Team Lead at StarApp LLC.</li>
+                            <li><span>2019 - 2023</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        </ul>
+                    </div>
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li><span>2026</span><br>BSCS from Islamia Univerity of Bahawalpur</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating beautiful, responsive websites with modern design principles.</p>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Designing intuitive and engaging mobile applications for iOS and Android.</p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating user-centered designs that are both beautiful and functional.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>E-Commerce Website</h3>
+                    <p>Full-featured online store with payment integration.</p>
+                </div>
+                <div class="work">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h3>Fitness App</h3>
+                    <p>Cross-platform app for tracking workouts and progress.</p>
+                </div>
+                <div class="work">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>Dashboard Redesign</h3>
+                    <p>Modern UI/UX redesign for a financial dashboard.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>hamnaejaz864@gmail.com </p>
+                    <p><i class="fas fa-phone-square-alt"></i>+92 3007852157</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="copyright">
+        <p>Copyright © Hamna. Made with <i class="fas fa-heart"></i> by Hamna</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
